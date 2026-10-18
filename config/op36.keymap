@@ -138,13 +138,13 @@
             >;
         };
 
-        // Hold the middle left thumb for control groups; A becomes Ctrl
-        // for assigning groups. Transparent keys fall through to gaming.
+        // Hold the middle left thumb for numbers 1-0; V/B become Ctrl/Alt.
+        // Transparent keys fall through to gaming.
         gaming_numbers {
             bindings = <
   &kp N1     &kp N2   &kp N3  &kp N4  &kp N5    &trans  &trans  &trans  &trans  &trans
-  &kp LCTRL  &kp N6   &kp N7  &kp N8  &kp N9    &trans  &trans  &trans  &trans  &trans
-  &kp ESC    &kp TAB  &kp N0  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &kp N6     &kp N7   &kp N8  &kp N9     &kp N0      &trans  &trans  &trans  &trans  &trans
+  &kp ESC    &kp TAB  &trans  &kp LCTRL  &kp LALT    &trans  &trans  &trans  &trans  &trans
              &trans  &trans  &trans    &trans  &trans  &to 0
             >;
         };
